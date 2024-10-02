@@ -39,5 +39,11 @@ public class Config {
     public String getCartUrl() {
         return properties.getProperty("cart.url");
     }
+    public String getAccountUrl() {
+        return properties.getProperty("account.url");
+    }
+    public String getAddressUrl() {
+        return properties.getProperty("address.url");
+    }
 
 }
