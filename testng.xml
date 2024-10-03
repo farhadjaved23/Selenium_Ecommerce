@@ -1,0 +1,22 @@
+<suite name="ParallelSuite" parallel="tests" thread-count="3">
+    <test name="Test1">
+        <classes>
+            <class name="org.example.tests.products"/>
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="org.example.tests.account"/>
+        </classes>
+    </test>
+    <test name="Test3">
+        <classes>
+            <class name="org.example.tests.order"/>
+        </classes>
+    </test>
+    <test name="Test4">
+        <classes>
+            <class name="org.example.tests.productFilter"/>
+        </classes>
+    </test>
+</suite>
